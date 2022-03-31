@@ -11,7 +11,7 @@ module.exports = function (homebridge) {
   UUIDGen = homebridge.hap.uuid;
   FakeGatoHistoryService = require("fakegato-history")(homebridge);
   homebridge.registerAccessory(
-    "homebridge-3em-energy-meter",
+    "homebridge-shelly-energy-meter",
     "ShellyEnergyMeter",
     EnergyMeter
   );

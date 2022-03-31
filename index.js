@@ -193,6 +193,8 @@ EnergyMeter.prototype.updateState = function () {
         try {
           json = JSON.parse(body);
 
+          this.log(json);
+
           if (this.use_pf && this.use_em == false) {
             this.pf0 = parseFloat(json.emeters[0].pf);
             this.pf1 = parseFloat(json.emeters[1].pf);

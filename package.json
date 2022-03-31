@@ -16,18 +16,14 @@
     "homebridge": ">=1.3.1"
   },
   "author": {
-    "name": "@produdegr"
+    "name": "@marcopifferi"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/produdegr/homebridge-3em-energy-meter.git"
+    "url": "git://github.com/marcopifferi/homebridge-energy-meter.git"
   },
   "dependencies": {
     "request": "^2.5.0",
     "fakegato-history": "^0.6.1"
-  },
-  "funding": {
-    "type": "paypal",
-    "url": "https://paypal.me/produdegr"
   }
 }

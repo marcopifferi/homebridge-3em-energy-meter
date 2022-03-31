@@ -207,6 +207,11 @@ EnergyMeter.prototype.updateState = function () {
             this.totalPowerConsumption = Math.abs(
               parseFloat(json.meters[0].total) / 1000
             );
+            this.voltage1 = 0;
+            this.ampere1 = 0;
+            this.pf0 = 1;
+            this.pf1 = 1;
+            this.pf2 = 1;
           } else if (this.use_em) {
             if (this.use_em_mode == 0) {
               this.powerConsumption = Math.abs(

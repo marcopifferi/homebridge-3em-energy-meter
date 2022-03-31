@@ -177,7 +177,7 @@ EnergyMeter.prototype.updateState = function () {
       timeout: this.timeout,
     };
     if (this.debug_log) {
-      this.log("Requesting energy values from Shelly 3EM(EM) ...");
+      this.log("Requesting energy values from Shelly ...");
     }
     if (this.auth) {
       ops.auth = {

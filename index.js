@@ -34,7 +34,7 @@ function EnergyMeter(log, config) {
   this.debug_log = config["debug_log"] || false;
   this.serial = config.serial || "9000000";
   if (this.use_shelly) {
-    this.url = "http://" + this.ip + "/meter/0";
+    this.url = "http://" + this.ip + "/status/meter/0";
   } else {
     this.url = "http://" + this.ip + "/status/emeters?";
   }

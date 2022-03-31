@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "3EMEnergyMeter",
+  "pluginAlias": "ShellyEnergyMeter",
   "pluginType": "accessory",
   "singular": true,
   "headerDisplay": "Shelly 3EM Energy Meter Plugin",

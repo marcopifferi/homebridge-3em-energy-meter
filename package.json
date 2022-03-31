@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-energy-meter",
+  "name": "homebridge-shelly-energy-meter",
   "version": "1.1.2",
   "description": "Homebridge plugin for implementing Shelly Energy Meter functionality in Homekit (EVE third party app only).",
   "license": "MIT",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marcopifferi/homebridge-energy-meter.git"
+    "url": "git://github.com/marcopifferi/homebridge-shelly-energy-meter.git"
   },
   "dependencies": {
     "request": "^2.5.0",

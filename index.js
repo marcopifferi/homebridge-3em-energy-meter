@@ -12,7 +12,7 @@ module.exports = function (homebridge) {
   FakeGatoHistoryService = require("fakegato-history")(homebridge);
   homebridge.registerAccessory(
     "homebridge-3em-energy-meter",
-    "3EMEnergyMeter",
+    "ShellyEnergyMeter",
     EnergyMeter
   );
 };
